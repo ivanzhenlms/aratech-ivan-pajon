@@ -1,0 +1,57 @@
+{
+    "app": {
+        "title": "AratechPrueba",
+        "list_users": "Usuarios",
+        "create_user": "Crear Usuario"
+    },
+
+    "list_users": {
+        "show": "Ver",
+        "no_users": "No se han encontrado usuarios"
+    },
+
+    "view_user": {
+        "name": "Nombre",
+        "birthdate": "Fecha de Nacimiento",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "accept": "Aceptar",
+        "cancel": "Cancelar",
+        "revert": "Revertir",
+
+        "required_name": "Es obligatorio indicar el nombre del usuario",
+        "required_birthdate": "Es obligatorio indicar la fecha de nacimiento",
+
+        "tooltip_validation_error": "Rellene todos los campos correctamente",
+        "tooltip_no_changes": "No se ha modificado el usuario",
+
+        "modal": {
+            "delete_title": "Eliminar Usuario",
+            "delete_text": "¿Estás seguro de que quieres eliminar el usuario?",
+
+            "edit_title": "Editar Usuario",
+            "edit_text": "¿Estás seguro de que quieres editar el usuario?"
+        }
+    },
+
+    "create_user": {
+        "title": "Nuevo Usuario",
+        "name": "Nombre",
+        "birthdate": "Fecha de Nacimiento",
+        "accept": "Aceptar",
+
+        "required_name": "Es obligatorio indicar el nombre del usuario",
+        "required_birthdate": "Es obligatorio indicar la fecha de nacimiento",
+
+        "modal": {
+            "success_title": "Nuevo Usuario",
+            "success_text": "Se ha dado de alta un nuevo usuario satisfactoriamente"
+        }
+    },
+
+    "modal": {
+        "modal_info": {
+            "accept": "Aceptar"
+        }
+    }
+}

@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+.body-content {
+    margin-top: 75px;
+}
+
+.navbar-shadow {
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+}
+
+.card-shadow {
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+}
+
+.control-valid {
+    border-left: 5px solid #42A948;
+}
+
+.control-invalid {
+    border-left: 5px solid #a94442;
+}
+
+dl-date-time-picker.control-invalid {
+    border-left: none;
+}
+
+dl-date-time-picker.control-invalid > div {
+    border-left: 5px solid #a94442;
+}
+
+dl-date-time-picker.control-valid {
+    border-left: none;
+}
+
+dl-date-time-picker.control-valid > div {
+    border-left: 5px solid #42A948;
+}
+
+.alert {
+    position: relative;
+    padding: 0;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    height: 25px;
+    font-size: 0.85rem;
+}

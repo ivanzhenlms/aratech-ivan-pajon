@@ -1,0 +1,24 @@
+<div class="body-content container-fluid">
+  <ngb-alert class="text-center"
+  *ngIf="!users"
+  type="info"
+  [dismissible]="false">
+  {{ 'list_users.no_users' | translate }}
+  </ngb-alert>
+  <div class="row">
+    <ng-container *ngFor="let user of users | async">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-xl-3 justify-content-around">
+        <div class="card mb-4 card-shadow text-center">
+          <img class="card-img-top img-fluid p-2 rounded d-none d-sm-block" src="/src/assets/images/default_user.png" alt="{{ user.name }}">
+          <div class="card-body">
+            <h3 class="card-title">{{ user.name }}</h3>
+            <h6 class="card-subtitle mb-2 text-muted">{{ user.birthdate | date: 'longDate' }}</h6>
+          </div>
+          <div class="card-footer">
+            <a routerLink="/view-user/{{ user.id }}" class="btn btn-outline-dark">{{ 'list_users.show' | translate }}</a>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

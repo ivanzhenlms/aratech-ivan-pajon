@@ -1,0 +1,57 @@
+{
+    "app": {
+        "title": "AratechSample",
+        "list_users": "Users",
+        "create_user": "Create User"
+    },
+
+    "list_users": {
+        "show": "Show",
+        "no_users": "Users not found"
+    },
+
+    "view_user": {
+        "name": "Name",
+        "birthdate": "Birthdate",
+        "edit": "Edit",
+        "delete": "Delete",
+        "accept": "Accept",
+        "cancel": "Cancel",
+        "revert": "Revert",
+
+        "required_name": "You must specify a name for the user",
+        "required_birthdate": "You must specify a birthdate for the user",
+
+        "tooltip_validation_error": "Fill all the fields correctly",
+        "tooltip_no_changes": "User has not been modified",
+
+        "modal": {
+            "delete_title": "Delete User",
+            "delete_text": "Are you sure you want to delete the user?",
+
+            "edit_title": "Edit User",
+            "edit_text": "Are you sure you want to edit the user?"
+        }
+    },
+
+    "create_user": {
+        "title": "New User",
+        "name": "Name",
+        "birthdate": "Birthdate",
+        "accept": "Accept",
+
+        "required_name": "You must specify a name for the user",
+        "required_birthdate": "You must specify a birthdate for the user",
+
+        "modal": {
+            "success_title": "New User",
+            "success_text": "User has been created successfully"
+        }
+    },
+
+    "modal": {
+        "modal_info": {
+            "accept": "Accept"
+        }
+    }
+}
